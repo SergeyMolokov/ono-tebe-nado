@@ -5,7 +5,7 @@ body {
 
 header {
   display: grid;
-  grid-template-columns: 1fr min-content 1fr; 
+  grid-template-columns: 1fr min-content 1fr;
   width: 1052px;
   justify-content: space-between;
   align-items: center;
@@ -19,7 +19,7 @@ header {
 .header__menu {
   display: flex;
   align-items: center;
-  justify-self: start; 
+  justify-self: start;
   padding-top: 3px;
   padding-left: 1px;
 }
@@ -39,7 +39,7 @@ header {
 }
 
 .header__links-list .header__links:first-child {
-  list-style: none; 
+  list-style: none;
 }
 
 .header__link {
@@ -50,7 +50,7 @@ header {
 
 .header__link.active {
   text-decoration: none;
-  list-style: none; 
+  list-style: none;
 }
 
 address {
@@ -59,7 +59,7 @@ address {
   font-style: normal;
   text-underline-offset: 5px;
   line-height: 25px;
-  justify-self: end; 
+  justify-self: end;
   margin-right: 6px;
 }
 
