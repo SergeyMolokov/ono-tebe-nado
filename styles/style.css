@@ -168,9 +168,12 @@ address {
 .lots {
   display: flex;
   flex-direction: column;
-  min-height: 692px;
   justify-content: space-between;
   margin-bottom: 147px;
+}
+
+.card-link {
+  text-decoration: none;
 }
 
 .lots__heading {
@@ -181,7 +184,6 @@ address {
   line-height: 45px;
   padding-left: 63px;
   padding-top: 1px;
-
 }
 
 .lots__card-list {
@@ -190,6 +192,7 @@ address {
   list-style: none;
   gap: 25px;
   padding-left: 25px;
+  padding-top: 29px;
 }
 
 .lots__card-list-item {
@@ -197,7 +200,7 @@ address {
   flex-direction: column;
   justify-content: space-between;
   width: 334px;
-  height: 563px;
+  min-height: 563px;
   flex-grow: 1;
   background-size: cover;
   background-position: center;
@@ -250,6 +253,7 @@ address {
   text-decoration: underline;
   text-underline-offset: 4px;
   padding-left: 64px;
+  padding-top: 33px;
 }
 
 .about {
@@ -282,7 +286,7 @@ address {
   justify-self: end;
   flex-direction: column;
   justify-content: space-around;
-  font-family: 'Raleway', serif;
+  font-family: 'Raleway', sans-serif;
   font-style: normal;
   padding-top: 137px;
 }
@@ -293,15 +297,17 @@ address {
   text-align: left;
   text-transform: uppercase;
   padding-bottom: 100px;
+  padding-left: 48px;
 }
 
 .about__text {
- width: 692px;
- font-size: 20px;
- line-height: 24px;
- font-weight: 400;
- text-align: left;
- margin-bottom: 23px;
+  max-width: 100%;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 23px;
+  padding-left: 49px;
 }
 
 footer {
@@ -329,7 +335,7 @@ footer {
   line-height: 25px;
 }
 
-.footer__menu-link a {
+.footer__menu-link {
   display: block;
   margin-bottom: 6px;
   font-size: 18px;
